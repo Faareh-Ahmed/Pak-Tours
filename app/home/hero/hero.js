@@ -1,9 +1,13 @@
+import Navbar from "../nav/navbar";
 
 export default function Hero() {
     return (
         <>
+            <div className=" relative">
 
-        <video src='videos/backgroundvid1.mp4' className="w-screen h-screen object-cover" autoPlay loop   preload="none" muted/>
+                <Navbar />
+                <video src='videos/backgroundvid3.mp4' className="w-screen h-screen object-cover" autoPlay loop preload="none" muted />
+            </div>
         </>
     );
 }
