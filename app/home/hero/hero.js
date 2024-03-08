@@ -6,7 +6,7 @@ export default function Hero() {
             <div className=" relative">
 
                 <Navbar />
-                <video src='videos/backgroundvid3.mp4' className="w-screen h-screen object-cover" autoPlay loop preload="none" muted />
+                <video src='videos/backgroundvid3.mp4' className=" w-full h-screen object-cover min-h-screen" autoPlay loop preload="none" muted />
             </div>
         </>
     );
